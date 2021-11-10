@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-9/css/all.min.css" integrity="sha512-X8jR8oYnEmXhGB43u+qxt0mQezR37NUxHhtukvD4bzeWDthOz0mvNOYOzPCMZ7VB0mG607nrkd+kakmSmbffyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Open Board</title>
+</head>
+<body>
+    <div class="options-cont">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <div class="tools-cont scale-tools">
+        <img class = "pencil" src="./Icons/Pencil.svg" alt="Image Not Found">
+        <img class = "eraser" src="./Icons/Eraser.svg" alt="Image Not Found">
+        <img class = "download" src="./Icons/Download.svg" alt="Image Not Found">
+        <img class = "upload" src="./Icons/Upload.svg" alt="Image Not Found">
+        <img class = "sticky" src="./Icons/StickyNote.svg" alt="Image Not Found">
+        <img class = "redo" src="./Icons/Redo.svg" alt="Image Not Found">
+        <img class = "undo" src="./Icons/Undo.svg" alt="Image Not Found">
+    </div>
+
+    <div class="pencil-tool-cont">
+            <div class="pencil-width-cont">
+                    <input type="range" min="2" max="10" value="3" class="pencil-width" >
+            </div>
+            <div class="pencil-color-cont">
+                    <div class="black pencil-color"></div>
+                    <div class="red pencil-color"></div>
+                    <div class="blue pencil-color"></div>
+            </div>
+    </div>
+
+    <div class="eraser-tool-cont">
+        <input type="range" min="2" max="10" value="3" class="eraser-width">
+    </div>
+
+     <canvas></canvas>
+     <script src="https://cdn.socket.io/4.3.2/socket.io.min.js" integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs" crossorigin="anonymous"></script>
+     <script>
+         let socket = io.connect("http://localhost:3000");
+     </script>
+     <script src="./tools.js"></script>
+     <script src="./canvas.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

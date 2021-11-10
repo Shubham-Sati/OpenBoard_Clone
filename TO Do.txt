@@ -1,0 +1,25 @@
+
+Level 1 :-
+
+    => Basic UI ( HTML + CSS )
+    => ToolBar Items( DOM manipulation )  
+    => pencil , eraser , sticky notes , upload ( basic UI implementation )
+
+Level 2 :-
+
+    => Canvas for Drawing
+    => Basic Graphics ( sync mouse movement with the canvas )( mouse Listener )
+    => pencil , eraser , undo , redo ( features implement )
+
+Level 3 :-
+
+    => realtime Graphics showing( socket.io javascript library )
+    => make express server
+
+
+
+
+
+
+
+
