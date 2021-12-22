@@ -1,6 +1,6 @@
 # OpenBoard_Clone
 
-link => https://shubham-sati.github.io/OpenBoard_Clone/
+
 
 => Openboard is an open source cross-platform teaching application for interactive whiteboard designed primarily for use in schools and universities.
 
